@@ -10,7 +10,291 @@ a {
     text-decoration: none;
     color: black;
 }
-@media screen and (min-width: 1201px) {
+
+
+
+
+
+
+@media (min-width: 2001px) and (max-width: 4001px) {
+    header{
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        
+        
+    }
+    body {
+        width: 100%;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        /* place-items: center;
+        place-content: center; */
+    }
+    .a {
+        display: none;
+    }
+
+    .nav {
+        width: 200px;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        height: 70%;
+        width: 90%;
+        margin-top: 50px;
+        background-color: white;
+        
+    }
+    .logo1 {
+        height: 10%;
+        width: 100%;
+        background: url(./ima/BLA.jpg)  50% no-repeat;
+        background-size: 250px;
+        background-position: -35px;
+        
+    }
+    .musique h2{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .musique2 h2{
+        padding-bottom: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .musique3 h2{
+        padding-bottom: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .musique p{
+        font-size: 0.7rem;
+    }
+    .ec {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .musique {
+        height: 45%;
+        width: 100%;
+        background-color: white;
+        padding-left: 5px;
+    }
+    .musique2 p{
+        font-size: 0.7rem;
+    }
+   
+    .musique2 {
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        padding-left: 5px;
+    }
+    .musique3 p{
+        font-size: 0.7rem;
+    }
+    
+    .musique3 {
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        padding-left: 5px;
+    }
+   
+    .contenu {
+        width: 90%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vrai {
+        background-color: black;
+        height: 85%;
+        width: 90%;
+        display: flex;
+    }
+    .didib {
+        height: 100%;
+        width: 50%;
+        background-color: black;
+    }
+    .didib h2{
+        padding-bottom: 10px;
+        
+    }
+    .rech input{
+        height: 30px;
+        width: 450px;
+        padding-left: 15px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.767);
+        color: white;
+    }
+    .al1 {
+        margin-top: 50px;
+        font-size: 0.8rem;
+        color: white;
+        height: 120px;
+        width: 100%;
+        background-color: black;
+    }
+    .al3 {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color: white;
+        height: 120px;
+        width: 100%;
+        background-color: black;
+    }
+    .al2 {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color: white;
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    .allb {
+        display: flex;
+    }
+    .car1 {
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background: url(./ima/didi36.png) 50% no-repeat;
+        background-size: cover;
+    }
+    .car {
+        background: url(./ima/didi36.png) 50% no-repeat;
+        background-size: cover;
+        border-radius: 100%;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+    }
+    .didib2 {
+        height: 100%;
+        width: 50%;
+        background-color: black;
+    }
+    .pho1 {
+        height: 200px;
+        width: 500px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+    .troi1 {
+        height: 100%;
+        width: 60%;
+        background-color: brown;
+        background: url(./ima/didi36.png) 50% no-repeat;
+        background-size: cover;
+    }
+    .troi2 {
+        height: 90%;
+        width: 25%;
+        background: url(./ima/isto.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .troi3 {
+        height: 80%;
+        width: 15%;
+        background-color: brown;
+        background: url(./ima/vert.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .pho2 {
+        margin-top: 10%;
+        height: 57%;
+        width: 500px;
+        background-color: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .po2 {
+        height: 450px;
+        width: 450px;
+        background-color: rgba(141, 134, 134, 0.384);
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-top: 10px;
+    }
+    .cl1 {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: url(./ima/didi36.png) 50% no-repeat;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+     
+    .cl2 {
+        margin: 0 auto;
+        height: 25%;
+        width: 80%;
+        background-color: rgba(141, 134, 134, 0.548);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .loe1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .tem2 {
+        height: 5px;
+        width: 250px;
+        display: flex;
+        margin: 15px;
+    }
+    .temp21 {
+        height: 5px;
+        width: 125px;
+        background-color: white;
+    }
+    .temp22 {
+        height: 5px;
+        width: 125px;
+        background-color: rgb(41, 43, 43);
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1201px) and (max-width: 2000px) {
     body {
         width: 100%;
         background-color: white;
@@ -280,6 +564,12 @@ a {
         background-color: rgb(41, 43, 43);
     }
 }
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
     body {
         width: 100%;
